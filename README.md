@@ -23,6 +23,9 @@ A Django-based dashboard for monitoring and improving password hygiene and stren
 - Cryptography
 - Chart.js
 
+
+## 📦 Recommended Third-party Packages
+```bash
 | Purpose                                    | Package                                                                                     |
 | ------------------------------------------ | ------------------------------------------------------------------------------------------- |
 | **User Auth & Roles**                      | `django-allauth` or `django-rest-auth` (for REST)                                           |
@@ -33,7 +36,8 @@ A Django-based dashboard for monitoring and improving password hygiene and stren
 | **Rate Limiting / Brute Force Protection** | `django-axes`                                                                               |
 | **Logging/Audit Trails**                   | `django-simple-history` or custom model                                                     |
 
-**Django Project Structure**
+## 🧱 Django Project Structure
+```bash
 secure_pwd_dashboard/
 ├── manage.py
 ├── config/                  # Django settings, URLs
