@@ -32,6 +32,8 @@ A Django-based dashboard for monitoring and improving password hygiene and stren
 | **Dashboard UI**                           | `django-crispy-forms`, Charting with `Chart.js` or `Plotly`                                 |
 | **Rate Limiting / Brute Force Protection** | `django-axes`                                                                               |
 | **Logging/Audit Trails**                   | `django-simple-history` or custom model                                                     |
+
+**Django Project Structure**
 secure_pwd_dashboard/
 ├── manage.py
 ├── config/                  # Django settings, URLs
