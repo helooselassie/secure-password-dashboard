@@ -17,13 +17,3 @@ source venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env
 
-
-
----
-
-### 🔁 8. Initialize Git & Push to GitHub
-
-```bash
-git init
-git add .
-git commit -m "Initial commit - Secure Password Health Dashboard"
